@@ -5,7 +5,12 @@
     <link rel = "stylesheet" href = "css/index.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <script src = "js/index.js">
+    <br>
+    Set 1: <input type = "text" id = "set1"><br><br>
+    Set 2: <input type = "text" id = "set2"><br><br>
+    Relation : <input type = "text" id = "relation"><br><br>
+    <button type = "button" onclick = "getDescription()">Check</button>
+    <p id = "output"></p>
+    <script src = "js/index.js"></script>
 </body>
 </html>
